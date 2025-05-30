@@ -1,0 +1,104 @@
+{
+  "common": {
+    "create_free_account": "Maak een gratis account aan",
+    "get_started": "Beginnen",
+    "login": "Inloggen",
+    "pricing": "Prijzen",
+    "resources": "Bronnen",
+    "integrations": "Integraties",
+    "solutions": "Oplossingen",
+    "view_all_integrations": "Bekijk alle integraties"
+  },
+  "header": {
+    "solutions_dropdown_title": "Oplossingen",
+    "google_ads": "Google Ads",
+    "facebook_ads": "Facebook Ads",
+    "instagram_ads": "Instagram Ads",
+    "microsoft_ads": "Microsoft Ads",
+    "youtube_ads": "Youtube Ads",
+    "x_ads": "X Ads",
+    "linkedin_ads": "Linkedin ads",
+    "tiktok_ads": "Tiktok ads",
+    "integrations_dropdown_title": "Integraties",
+    "shopify": "Shopify",
+    "wix": "Wix",
+    "wordpress": "WordPress",
+    "squarespace": "Squarespace",
+    "mailchimp": "Mailchimp",
+    "all_integrations_link": "Integraties",
+    "resources_dropdown_title": "Bronnen",
+    "product_roadmap": "Product roadmap",
+    "support_center": "Supportcentrum",
+    "contact_us": "Contact",
+    "blog": "Blog",
+    "language_switcher_title": "Talen"
+  },
+  "hero": {
+    "main_title_1": "Laat AI uw advertenties beheren",
+    "main_title_2": "& trek moeiteloos meer klanten aan.",
+    "subtitle": "Lanceer eenvoudig uw advertenties op alle belangrijke kanalen, zie hoe ze automatisch worden geoptimaliseerd en behaal de beste advertentieresultaten voor uw bedrijf.",
+    "signup_stats": "1171 bedrijven hebben zich vorige week aangemeld!",
+    "google_partner": "Google Premier Partner 2025"
+  },
+  "budget_section": {
+    "title": "Geen ervaring of groot budget nodig",
+    "description": "Nieuw bij online adverteren? Leer hoe Shown u helpt uw advertentiedoelen te bereiken zonder de hoge kosten van traditionele oplossingen."
+  },
+  "testimonials": {
+    "testimonial_1": "Ik ben Shown gaan gebruiken voor mijn bedrijf en ben zeer tevreden. Speciale dank aan het supportteam voor hun hulp!",
+    "testimonial_2": "Shown is als een digitale marketinggoeroe die naast me zit en me tijd bespaart door al het handmatige werk te doen!",
+    "testimonial_3": "Ik heb Shown gebruikt om te adverteren voor mijn eenmanszaak. Ik had zeer goede resultaten en ben blij met hun geautomatiseerde tool & supportplan."
+  },
+  "campaign_creation": {
+    "title": "Creëer winstgevende advertentiecampagnes in minuten",
+    "point_1_title": "Hoog presterende advertenties. Moeiteloos gemaakt.",
+    "point_1_desc": "Creëer advertentiecampagnes zoals de grootste merken in enkele minuten. Ontdek de kracht van automatisering.",
+    "point_2_title": "Shown doet het werk voor u.",
+    "point_2_desc": "Shown regelt alles, van uw advertentietargeting & copywriting tot de creatie van uw advertentiemateriaal.",
+    "point_3_title": "Publiceer op alle belangrijke advertentieplatforms.",
+    "point_3_desc": "Wij ondersteunen alle belangrijke advertentieplatforms om u het beste rendement op uw investering te bieden."
+  },
+  "optimization": {
+    "title": "Laat uw advertenties 24/7 optimaliseren",
+    "description": "Shown optimaliseert uw advertenties de klok rond op elk kanaal. Zoekwoorden pauzeren, nieuwe advertenties maken voor A/B-tests of gewoon nieuwe targeting voorstellen, Shown regelt het allemaal."
+  },
+  "dashboard_control": {
+    "title": "Blijf in controle met ons alles-in-één dashboard",
+    "description": "Bekijk hoe uw advertentiecampagnes presteren of importeer bestaande campagnes om één bron van waarheid te hebben. Vergelijk verschillende kanalen, campagnes en advertenties in één oogopslag.",
+    "point_1_title": "Bekijk hoe uw campagnes presteren...",
+    "point_1_desc": "Creëer uw campagnes vanuit uw dashboard, stuur ze aan en krijg een overzicht van de prestaties en kanalen van uw campagnes.",
+    "point_2_title": "... En neem betere beslissingen met data",
+    "point_2_desc": "Houd de prestaties van uw campagnes in de gaten en krijg inzicht in elk ervan."
+  },
+  "budget_management": {
+    "title": "Beheer alle budgetten vanaf één plek",
+    "description": "Met Shown-credits kunt u moeiteloos budgetten beheren op alle advertentieplatforms vanaf één plek en bonuscredits verdienen terwijl u uitgeeft."
+  },
+  "integrations_section": {
+    "title": "Importeer relevante activa met Integraties",
+    "description": "Integreer uw verschillende apps & synchroniseer al uw waardevolle activa, zoals e-maillijsten & productlijsten, om winstgevende advertenties te maken."
+  },
+  "join_section": {
+    "title": "Sluit u aan bij 20.000 kleine bedrijven op Shown",
+    "description": "Sluit u aan bij onze bloeiende gemeenschap en ervaar het verschil. Ontgrendel groeikansen om uw bedrijf naar een hoger niveau te tillen."
+  },
+  "newsletter": {
+    "title": "Abonneer u op onze nieuwsbrief",
+    "description": "Ontvang de laatste updates en tips rechtstreeks in uw inbox.",
+    "placeholder": "Voer uw e-mailadres in",
+    "subscribe_button": "Abonneren"
+  },
+  "footer": {
+    "description": "Laat AI uw advertenties beheren & trek moeiteloos meer klanten aan.",
+    "platforms_title": "Platformen",
+    "integrations_title": "Integraties",
+    "resources_title": "Bronnen",
+    "company_title": "Bedrijf",
+    "about_us": "Over ons",
+    "careers": "Carrières",
+    "terms_of_service": "Servicevoorwaarden",
+    "privacy_policy": "Privacybeleid",
+    "copyright": "© 2024 Shown.io. Alle rechten voorbehouden."
+  }
+}
+

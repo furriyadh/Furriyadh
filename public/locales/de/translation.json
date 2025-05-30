@@ -1,0 +1,104 @@
+{
+  "common": {
+    "create_free_account": "Kostenloses Konto erstellen",
+    "get_started": "Loslegen",
+    "login": "Anmelden",
+    "pricing": "Preise",
+    "resources": "Ressourcen",
+    "integrations": "Integrationen",
+    "solutions": "Lösungen",
+    "view_all_integrations": "Alle Integrationen anzeigen"
+  },
+  "header": {
+    "solutions_dropdown_title": "Lösungen",
+    "google_ads": "Google Ads",
+    "facebook_ads": "Facebook Ads",
+    "instagram_ads": "Instagram Ads",
+    "microsoft_ads": "Microsoft Ads",
+    "youtube_ads": "Youtube Ads",
+    "x_ads": "X Ads",
+    "linkedin_ads": "Linkedin ads",
+    "tiktok_ads": "Tiktok ads",
+    "integrations_dropdown_title": "Integrationen",
+    "shopify": "Shopify",
+    "wix": "Wix",
+    "wordpress": "WordPress",
+    "squarespace": "Squarespace",
+    "mailchimp": "Mailchimp",
+    "all_integrations_link": "Integrationen",
+    "resources_dropdown_title": "Ressourcen",
+    "product_roadmap": "Produkt-Roadmap",
+    "support_center": "Support-Center",
+    "contact_us": "Kontakt",
+    "blog": "Blog",
+    "language_switcher_title": "Sprachen"
+  },
+  "hero": {
+    "main_title_1": "Lassen Sie KI Ihre Anzeigen schalten",
+    "main_title_2": "& gewinnen Sie mühelos mehr Kunden.",
+    "subtitle": "Starten Sie Ihre Anzeigen einfach auf allen wichtigen Kanälen, beobachten Sie, wie sie automatisch optimiert werden, und erzielen Sie die besten Anzeigenergebnisse für Ihr Unternehmen.",
+    "signup_stats": "1171 Unternehmen haben sich letzte Woche angemeldet!",
+    "google_partner": "Google Premier Partner 2025"
+  },
+  "budget_section": {
+    "title": "Keine Erfahrung oder großes Budget erforderlich",
+    "description": "Neu im Online-Advertising? Erfahren Sie, wie Shown Ihnen hilft, Ihre Werbeziele ohne die hohen Kosten traditioneller Lösungen zu erreichen."
+  },
+  "testimonials": {
+    "testimonial_1": "Ich habe Shown für mein Geschäft genutzt und bin sehr zufrieden. Ein besonderer Dank geht an das Support-Team für die Hilfe!",
+    "testimonial_2": "Shown ist wie ein digitaler Marketing-Guru, der neben mir sitzt und mir Zeit spart, indem er die ganze manuelle Arbeit erledigt!",
+    "testimonial_3": "Ich habe Shown genutzt, um für mein Ein-Personen-Unternehmen zu werben. Ich hatte sehr gute Ergebnisse und bin mit dem automatisierten Tool und dem Support-Plan zufrieden."
+  },
+  "campaign_creation": {
+    "title": "Erstellen Sie profitable Werbekampagnen in Minuten",
+    "point_1_title": "Leistungsstarke Anzeigen. Mühelos erstellt.",
+    "point_1_desc": "Erstellen Sie Werbekampagnen wie die größten Marken in wenigen Minuten. Entdecken Sie die Kraft der Automatisierung.",
+    "point_2_title": "Shown erledigt die Arbeit für Sie.",
+    "point_2_desc": "Shown kümmert sich um alles, von der Anzeigenausrichtung und dem Texten bis zur Erstellung Ihrer Anzeigenmotive.",
+    "point_3_title": "Veröffentlichen Sie auf allen wichtigen Werbeplattformen.",
+    "point_3_desc": "Wir unterstützen alle wichtigen Werbeplattformen, um Ihnen den besten Return on Investment zu bieten."
+  },
+  "optimization": {
+    "title": "Lassen Sie Ihre Anzeigen rund um die Uhr optimieren",
+    "description": "Shown optimiert Ihre Anzeigen rund um die Uhr auf jedem Kanal. Ob Keywords pausieren, neue Anzeigen für A/B-Tests erstellen oder einfach neue Ausrichtungen vorschlagen – Shown deckt alles ab."
+  },
+  "dashboard_control": {
+    "title": "Behalten Sie die Kontrolle mit unserem All-in-One-Dashboard",
+    "description": "Sehen Sie, wie Ihre Werbekampagnen performen, oder importieren Sie bestehende Kampagnen, um eine zentrale Informationsquelle zu haben. Vergleichen Sie verschiedene Kanäle, Kampagnen und Anzeigen auf einen Blick.",
+    "point_1_title": "Sehen Sie, wie Ihre Kampagnen performen...",
+    "point_1_desc": "Erstellen Sie Ihre Kampagnen über Ihr Dashboard, steuern Sie sie und erhalten Sie einen Überblick über die Leistung Ihrer Kampagnen und Kanäle.",
+    "point_2_title": "... Und treffen Sie bessere Entscheidungen mit Daten",
+    "point_2_desc": "Behalten Sie die Leistung Ihrer Kampagnen im Auge und erhalten Sie Einblicke in jede einzelne."
+  },
+  "budget_management": {
+    "title": "Verwalten Sie alle Budgets von einem Ort aus",
+    "description": "Mit Shown-Credits können Sie Budgets auf allen Werbeplattformen mühelos von einem Ort aus verwalten und Bonuspunkte sammeln, während Sie ausgeben."
+  },
+  "integrations_section": {
+    "title": "Importieren Sie relevante Assets mit Integrationen",
+    "description": "Integrieren Sie Ihre verschiedenen Apps und synchronisieren Sie alle Ihre wertvollen Assets wie E-Mail-Listen und Produktlisten, um profitable Anzeigen zu erstellen."
+  },
+  "join_section": {
+    "title": "Schließen Sie sich 20.000 Kleinunternehmen auf Shown an",
+    "description": "Treten Sie unserer wachsenden Community bei und erleben Sie den Unterschied. Erschließen Sie Wachstumschancen, um Ihr Unternehmen auf die nächste Stufe zu heben."
+  },
+  "newsletter": {
+    "title": "Abonnieren Sie unseren Newsletter",
+    "description": "Erhalten Sie die neuesten Updates und Tipps direkt in Ihr Postfach.",
+    "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "subscribe_button": "Abonnieren"
+  },
+  "footer": {
+    "description": "Lassen Sie KI Ihre Anzeigen schalten & gewinnen Sie mühelos mehr Kunden.",
+    "platforms_title": "Plattformen",
+    "integrations_title": "Integrationen",
+    "resources_title": "Ressourcen",
+    "company_title": "Unternehmen",
+    "about_us": "Über uns",
+    "careers": "Karriere",
+    "terms_of_service": "Nutzungsbedingungen",
+    "privacy_policy": "Datenschutzrichtlinie",
+    "copyright": "© 2024 Shown.io. Alle Rechte vorbehalten."
+  }
+}
+

@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# دليل استخدام مشروع Shown.io (Next.js)
 
-## Getting Started
+## نظرة عامة
 
-First, run the development server:
+هذا المشروع هو إعادة بناء لموقع shown.io باستخدام تقنيات الواجهة الأمامية الحديثة. يهدف المشروع إلى توفير منصة لتحسين وإدارة حملات الإعلانات المدفوعة عبر الإنترنت باستخدام الذكاء الاصطناعي، مع التركيز على مساعدة الشركات الصغيرة والمتوسطة.
+
+تم بناء المشروع باستخدام Next.js، وهو إطار عمل React يوفر ميزات مثل التصيير من جانب الخادم (SSR) وتوليد المواقع الثابتة (SSG)، مما يحسن الأداء وتجربة المستخدم ومحركات البحث.
+
+## التقنيات المستخدمة
+
+*   **إطار العمل:** Next.js 15+
+*   **اللغة:** TypeScript
+*   **المكتبة:** React.js
+*   **التصميم:** Tailwind CSS
+*   **مكونات الواجهة:** Shadcn/UI (تمت التهيئة، يمكن إضافة مكونات حسب الحاجة)
+*   **الرسوم البيانية:** Chart.js و react-chartjs-2 (تم التثبيت، يتطلب التنفيذ)
+*   **التدويل (i18n):** i18next و react-i18next (تم التثبيت، يتطلب التهيئة والتنفيذ)
+*   **مدير الحزم:** pnpm
+
+## إعداد بيئة التطوير
+
+1.  **استنساخ المستودع (Clone):** إذا كان المشروع على GitHub، قم باستنساخه:
+    ```bash
+    git clone <رابط_المستودع>
+    cd shown-nextjs
+    ```
+2.  **تثبيت الاعتماديات:** استخدم pnpm لتثبيت جميع الحزم المطلوبة:
+    ```bash
+    pnpm install
+    ```
+
+## تشغيل خادم التطوير
+
+لتشغيل المشروع محلياً مع التحديث التلقائي عند تغيير الكود:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+سيتم تشغيل الموقع عادةً على العنوان `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## بناء نسخة الإنتاج
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+لإنشاء نسخة محسنة وجاهزة للنشر:
 
-## Learn More
+```bash
+pnpm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+سيتم إنشاء مجلد `.next` يحتوي على ملفات الإنتاج.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## النشر
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### النشر على Vercel
 
-## Deploy on Vercel
+تعتبر Vercel المنصة المثالية لنشر تطبيقات Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **ربط حساب GitHub:** قم بربط حساب Vercel الخاص بك بحساب GitHub.
+2.  **إنشاء مشروع جديد:** في لوحة تحكم Vercel، اختر "Add New..." -> "Project".
+3.  **استيراد المستودع:** اختر مستودع المشروع (`shown-nextjs`) من قائمة مستودعات GitHub.
+4.  **ضبط الإعدادات:** عادةً ما تكتشف Vercel إعدادات Next.js تلقائياً. تأكد من أن الإعدادات صحيحة (مثل إطار العمل، أمر البناء `pnpm run build`، مجلد الإخراج، مدير الحزم `pnpm`).
+5.  **النشر:** اضغط على "Deploy". ستقوم Vercel ببناء ونشر المشروع تلقائياً.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### النشر على GitHub Pages (للمواقع الثابتة فقط)
+
+إذا كان الموقع يعتمد كلياً على التصدير الثابت (Static Export)، يمكن نشره على GitHub Pages. يتطلب ذلك تعديل إعدادات البناء في `next.config.mjs` لتفعيل التصدير الثابت وإعداد GitHub Actions للنشر.
+
+## بنية المشروع
+
+*   `src/app/`: يحتوي على ملفات التوجيه والصفحات الرئيسية للتطبيق (باستخدام App Router).
+*   `src/components/`: يحتوي على مكونات React القابلة لإعادة الاستخدام (مثل Header, Footer, Sections).
+*   `src/lib/`: يحتوي على الدوال المساعدة والأدوات (مثل إعدادات Shadcn/UI).
+*   `public/`: يحتوي على الملفات الثابتة التي يمكن الوصول إليها مباشرة (مثل الصور، الخطوط).
+*   `next.config.mjs`: ملف إعدادات Next.js.
+*   `tailwind.config.ts`: ملف إعدادات Tailwind CSS.
+*   `tsconfig.json`: ملف إعدادات TypeScript.
+*   `package.json`: يسرد الاعتماديات والنصوص البرمجية للمشروع.
+*   `pnpm-lock.yaml`: يضمن تثبيت نفس إصدارات الاعتماديات.
+
+## ملاحظات وتطوير مستقبلي
+
+*   **إكمال المكونات:** بعض المكونات في `src/app/page.tsx` لا تزال placeholders وتحتاج إلى تنفيذ كامل بناءً على محتوى `ar.html` الأصلي أو التصميم الجديد.
+*   **الترجمة (i18next):** تم تثبيت المكتبات ولكن تحتاج إلى تهيئة كاملة وإضافة ملفات الترجمة وتغليف النصوص في المكونات.
+*   **الرسوم البيانية (Chart.js):** تحتاج إلى دمجها في المكونات التي تتطلب عرض بيانات مرئية.
+*   **مكونات Shadcn/UI:** يمكن استخدامها لتحسين تصميم الواجهة وتوحيد شكل المكونات (مثل النماذج، البطاقات، الأزرار).
+*   **الأنيميشن (AOS):** إذا كانت التأثيرات الحركية مطلوبة، يجب تهيئة مكتبة مثل AOS أو Framer Motion.
+*   **اختبار شامل:** يجب إجراء اختبار شامل للتصميم المتجاوب والوظائف على مختلف المتصفحات والأجهزة.
+*   **API Routes:** إذا كانت هناك حاجة لنقاط نهاية API بسيطة (مثل نموذج النشرة البريدية)، يمكن إنشاؤها باستخدام API Routes في Next.js.
+
+---
+
+هذا الدليل يوفر نظرة عامة أساسية. يمكن توسيعه ليشمل تفاصيل أكثر حول كل قسم حسب الحاجة.

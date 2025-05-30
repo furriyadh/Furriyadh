@@ -1,0 +1,104 @@
+{
+  "common": {
+    "create_free_account": "Buat Akun Gratis",
+    "get_started": "Mulai",
+    "login": "Masuk",
+    "pricing": "Harga",
+    "resources": "Sumber Daya",
+    "integrations": "Integrasi",
+    "solutions": "Solusi",
+    "view_all_integrations": "Lihat semua integrasi"
+  },
+  "header": {
+    "solutions_dropdown_title": "Solusi",
+    "google_ads": "Google Ads",
+    "facebook_ads": "Facebook Ads",
+    "instagram_ads": "Instagram Ads",
+    "microsoft_ads": "Microsoft Ads",
+    "youtube_ads": "Youtube Ads",
+    "x_ads": "X Ads",
+    "linkedin_ads": "Linkedin ads",
+    "tiktok_ads": "Tiktok ads",
+    "integrations_dropdown_title": "Integrasi",
+    "shopify": "Shopify",
+    "wix": "Wix",
+    "wordpress": "WordPress",
+    "squarespace": "Squarespace",
+    "mailchimp": "Mailchimp",
+    "all_integrations_link": "Integrasi",
+    "resources_dropdown_title": "Sumber Daya",
+    "product_roadmap": "Peta jalan produk",
+    "support_center": "Pusat Dukungan",
+    "contact_us": "Hubungi Kami",
+    "blog": "Blog",
+    "language_switcher_title": "Bahasa"
+  },
+  "hero": {
+    "main_title_1": "Biarkan AI menjalankan iklan Anda",
+    "main_title_2": "& menarik lebih banyak pelanggan dengan mudah.",
+    "subtitle": "Luncurkan iklan Anda dengan mudah di semua saluran utama, saksikan iklan dioptimalkan secara otomatis & dapatkan hasil iklan terbaik untuk bisnis Anda.",
+    "signup_stats": "1171 perusahaan mendaftar minggu lalu!",
+    "google_partner": "Google Premier Partner 2025"
+  },
+  "budget_section": {
+    "title": "Tidak perlu pengalaman atau anggaran besar",
+    "description": "Baru mengenal periklanan online? Pelajari bagaimana Shown membantu Anda mencapai tujuan periklanan Anda tanpa biaya tinggi dari solusi tradisional."
+  },
+  "testimonials": {
+    "testimonial_1": "Saya mulai menggunakan Shown untuk bisnis saya dan saya sangat puas. Terima kasih khusus kepada tim dukungan karena telah membantu saya!",
+    "testimonial_2": "Shown seperti guru pemasaran digital yang duduk di dekat saya dan menghemat waktu saya dengan melakukan semua pekerjaan manual!",
+    "testimonial_3": "Saya menggunakan Shown untuk mengiklankan bisnis 1 orang saya. Saya mendapatkan hasil yang sangat baik dan saya senang dengan alat otomatis & paket dukungan mereka."
+  },
+  "campaign_creation": {
+    "title": "Buat kampanye iklan yang menguntungkan dalam hitungan menit",
+    "point_1_title": "Iklan berkinerja tinggi. Dibuat dengan mudah.",
+    "point_1_desc": "Buat kampanye iklan seperti merek terbesar dalam hitungan menit. Temukan kekuatan otomatisasi.",
+    "point_2_title": "Shown melakukan pekerjaan untuk Anda.",
+    "point_2_desc": "Shown mengurus semuanya, mulai dari penargetan iklan & penulisan naskah hingga pembuatan materi iklan Anda.",
+    "point_3_title": "Publikasikan di semua platform iklan utama.",
+    "point_3_desc": "Kami mendukung semua platform iklan utama untuk memberikan Anda laba atas investasi terbaik."
+  },
+  "optimization": {
+    "title": "Optimalkan iklan Anda 24/7",
+    "description": "Shown akan mengoptimalkan iklan Anda sepanjang waktu di setiap saluran. Menjeda kata kunci, membuat iklan baru untuk pengujian A/B atau sekadar menyarankan penargetan baru, Shown akan mencakup semuanya."
+  },
+  "dashboard_control": {
+    "title": "Tetap terkendali dengan dasbor lengkap kami",
+    "description": "Lihat kinerja kampanye iklan Anda atau impor kampanye yang ada untuk memiliki satu sumber kebenaran. Bandingkan berbagai saluran, kampanye & iklan secara sekilas.",
+    "point_1_title": "Lihat kinerja kampanye Anda...",
+    "point_1_desc": "Buat kampanye Anda dari dasbor Anda, kelola, dan dapatkan gambaran umum tentang kinerja dan saluran kampanye Anda.",
+    "point_2_title": "... Dan buat keputusan yang lebih baik dengan data",
+    "point_2_desc": "Awasi kinerja kampanye Anda dan dapatkan wawasan tentang masing-masing kampanye."
+  },
+  "budget_management": {
+    "title": "Kelola semua anggaran dari satu tempat",
+    "description": "Dengan kredit Shown, Anda dapat dengan mudah mengelola anggaran di semua platform iklan dari satu tempat dan mendapatkan kredit bonus saat Anda membelanjakan."
+  },
+  "integrations_section": {
+    "title": "Impor aset relevan dengan Integrasi",
+    "description": "Integrasikan berbagai aplikasi Anda & sinkronkan semua aset berharga Anda, seperti daftar email & daftar produk untuk membuat iklan yang menguntungkan."
+  },
+  "join_section": {
+    "title": "Bergabunglah dengan 20.000 bisnis kecil di Shown",
+    "description": "Bergabunglah dengan komunitas kami yang berkembang pesat dan rasakan perbedaannya. Buka peluang pertumbuhan untuk membawa bisnis Anda ke tingkat berikutnya."
+  },
+  "newsletter": {
+    "title": "Berlangganan buletin kami",
+    "description": "Dapatkan pembaruan dan kiat terbaru langsung di kotak masuk Anda.",
+    "placeholder": "Masukkan email Anda",
+    "subscribe_button": "Berlangganan"
+  },
+  "footer": {
+    "description": "Biarkan AI menjalankan iklan Anda & menarik lebih banyak pelanggan dengan mudah.",
+    "platforms_title": "Platform",
+    "integrations_title": "Integrasi",
+    "resources_title": "Sumber Daya",
+    "company_title": "Perusahaan",
+    "about_us": "Tentang Kami",
+    "careers": "Karier",
+    "terms_of_service": "Ketentuan Layanan",
+    "privacy_policy": "Kebijakan Privasi",
+    "copyright": "© 2024 Shown.io. Hak cipta dilindungi undang-undang."
+  }
+}
+

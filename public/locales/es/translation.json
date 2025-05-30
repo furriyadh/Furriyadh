@@ -1,0 +1,104 @@
+{
+  "common": {
+    "create_free_account": "Crear una cuenta gratuita",
+    "get_started": "Empezar",
+    "login": "Iniciar sesión",
+    "pricing": "Precios",
+    "resources": "Recursos",
+    "integrations": "Integraciones",
+    "solutions": "Soluciones",
+    "view_all_integrations": "Ver todas las integraciones"
+  },
+  "header": {
+    "solutions_dropdown_title": "Soluciones",
+    "google_ads": "Google Ads",
+    "facebook_ads": "Facebook Ads",
+    "instagram_ads": "Instagram Ads",
+    "microsoft_ads": "Microsoft Ads",
+    "youtube_ads": "Youtube Ads",
+    "x_ads": "X Ads",
+    "linkedin_ads": "Linkedin ads",
+    "tiktok_ads": "Tiktok ads",
+    "integrations_dropdown_title": "Integraciones",
+    "shopify": "Shopify",
+    "wix": "Wix",
+    "wordpress": "WordPress",
+    "squarespace": "Squarespace",
+    "mailchimp": "Mailchimp",
+    "all_integrations_link": "Integraciones",
+    "resources_dropdown_title": "Recursos",
+    "product_roadmap": "Hoja de ruta del producto",
+    "support_center": "Centro de soporte",
+    "contact_us": "Contáctanos",
+    "blog": "Blog",
+    "language_switcher_title": "Idiomas"
+  },
+  "hero": {
+    "main_title_1": "Deja que la IA gestione tus anuncios",
+    "main_title_2": "y atraiga más clientes sin esfuerzo.",
+    "subtitle": "Lanza fácilmente tus anuncios en todos los canales principales, observa cómo se optimizan automáticamente y obtén los mejores resultados publicitarios para tu negocio.",
+    "signup_stats": "¡1171 empresas se registraron la semana pasada!",
+    "google_partner": "Google Premier Partner 2025"
+  },
+  "budget_section": {
+    "title": "No se necesita experiencia ni un gran presupuesto",
+    "description": "¿Nuevo en la publicidad online? Aprende cómo Shown te ayuda a alcanzar tus objetivos publicitarios sin los altos costos de las soluciones tradicionales."
+  },
+  "testimonials": {
+    "testimonial_1": "Empecé a usar Shown para mi negocio y estoy muy satisfecho. ¡Un agradecimiento especial al equipo de soporte por ayudarme!",
+    "testimonial_2": "¡Shown es como un gurú del marketing digital sentado a mi lado que me ahorra tiempo haciendo todo el trabajo manual!",
+    "testimonial_3": "Utilicé Shown para anunciar mi negocio unipersonal. Tuve muy buenos resultados y estoy contento con su herramienta automatizada y plan de soporte."
+  },
+  "campaign_creation": {
+    "title": "Crea campañas publicitarias rentables en minutos",
+    "point_1_title": "Anuncios de alto rendimiento. Hechos sin esfuerzo.",
+    "point_1_desc": "Crea campañas publicitarias como las grandes marcas en cuestión de minutos. Descubre el poder de la automatización.",
+    "point_2_title": "Shown hace el trabajo por ti.",
+    "point_2_desc": "Shown se encarga de todo, desde la segmentación de anuncios y la redacción de textos hasta la creación de creatividades publicitarias.",
+    "point_3_title": "Publica en todas las principales plataformas publicitarias.",
+    "point_3_desc": "Apoyamos todas las principales plataformas publicitarias para ofrecerte el mejor retorno de la inversión."
+  },
+  "optimization": {
+    "title": "Optimiza tus anuncios 24/7",
+    "description": "Shown optimizará tus anuncios las 24 horas del día en todos los canales. Pausar palabras clave, crear nuevos anuncios para pruebas A/B o simplemente sugerir nueva segmentación, Shown lo cubre todo."
+  },
+  "dashboard_control": {
+    "title": "Mantén el control con nuestro panel todo en uno",
+    "description": "Observa el rendimiento de tus campañas publicitarias o importa campañas existentes para tener un único punto de verdad. Compara diferentes canales, campañas y anuncios de un vistazo.",
+    "point_1_title": "Observa el rendimiento de tus campañas...",
+    "point_1_desc": "Crea tus campañas desde tu panel, dirígelas y obtén una visión general del rendimiento y los canales de tus campañas.",
+    "point_2_title": "... Y toma mejores decisiones con datos",
+    "point_2_desc": "Vigila el rendimiento de tus campañas y obtén información sobre cada una de ellas."
+  },
+  "budget_management": {
+    "title": "Gestiona todos los presupuestos desde un solo lugar",
+    "description": "Con los créditos de Shown, puedes gestionar sin esfuerzo los presupuestos en todas las plataformas publicitarias desde un solo lugar y ganar créditos adicionales a medida que gastas."
+  },
+  "integrations_section": {
+    "title": "Importa activos relevantes con Integraciones",
+    "description": "Integra tus diferentes aplicaciones y sincroniza todos tus activos valiosos, como listas de correo electrónico y listas de productos, para crear anuncios rentables."
+  },
+  "join_section": {
+    "title": "Únete a 20,000 pequeñas empresas en Shown",
+    "description": "Únete a nuestra próspera comunidad y experimenta la diferencia. Desbloquea oportunidades de crecimiento para llevar tu negocio al siguiente nivel."
+  },
+  "newsletter": {
+    "title": "Suscríbete a nuestro boletín",
+    "description": "Recibe las últimas actualizaciones y consejos directamente en tu bandeja de entrada.",
+    "placeholder": "Introduce tu correo electrónico",
+    "subscribe_button": "Suscribirse"
+  },
+  "footer": {
+    "description": "Deja que la IA gestione tus anuncios y atraiga más clientes sin esfuerzo.",
+    "platforms_title": "Plataformas",
+    "integrations_title": "Integraciones",
+    "resources_title": "Recursos",
+    "company_title": "Empresa",
+    "about_us": "Sobre nosotros",
+    "careers": "Carreras",
+    "terms_of_service": "Términos de servicio",
+    "privacy_policy": "Política de privacidad",
+    "copyright": "© 2024 Shown.io. Todos los derechos reservados."
+  }
+}
+

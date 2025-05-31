@@ -1,18 +1,41 @@
+import {notFound} from 'next/navigation';
 import {getRequestConfig} from 'next-intl/server';
- 
-// Corrected syntax: removed extra parentheses around {locale}
+import type {AbstractIntlMessages} from 'next-intl';
+
+// تحديد نوع الرسائل
+type Messages = AbstractIntlMessages;
+
+// قائمة اللغات المدعومة
+const locales = ['en', 'ar'];
+
 export default getRequestConfig(async ({locale}) => {
-  // Validate that the incoming `locale` parameter is valid
-  // Provide a static fallback message configuration object by importing the JSON file
-  // Ensure the path to the locale files is correct relative to this file (src/i18n.ts)
+  // التحقق من أن اللغة المطلوبة مدعومة
+  if (!locales.includes(locale as any)) notFound();
+
   try {
+    // استيراد ملف اللغة المطلوب ديناميكياً
+    // تأكد من أن المسار صحيح بالنسبة لموقع هذا الملف
+    const module: { default: Messages } = await import(`./i18n/locales/${locale}.json`);
     return {
-      messages: (await import(`./i18n/locales/${locale}.json`)).default
+      messages: module.default
     };
   } catch (error) {
     console.error(`Could not load locale messages for ${locale}:`, error);
-    // Optionally return fallback messages or rethrow the error
-    // For simplicity, returning an empty object, but you might want a better strategy
-    return { messages: {} }; 
+
+    // محاولة تحميل اللغة الإنجليزية كلغة احتياطية
+    if (locale !== 'en') { // تجنب المحاولة مرتين إذا كانت اللغة المطلوبة هي الإنجليزية أصلاً
+      console.log('Attempting to load fallback locale: en');
+      try {
+        const fallbackModule: { default: Messages } = await import(`./i18n/locales/en.json`);
+        return {
+          messages: fallbackModule.default
+        };
+      } catch (fallbackError) {
+        console.error(`Could not load fallback locale messages (en):`, fallbackError);
+      }
+    }
+
+    // إذا فشل كل شيء، أظهر خطأ أو صفحة 404
+    notFound(); // أو يمكنك رمي خطأ throw new Error(...);
   }
 });

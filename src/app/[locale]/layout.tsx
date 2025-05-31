@@ -1,16 +1,12 @@
-import { Inter } from 'next/font/google';
-import { NextIntlClientProvider } from 'next-intl';
+import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { notFound } from 'next/navigation';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import { ReactNode } from 'react';
 
-// تحميل الخطوط
-const inter = Inter({ subsets: ['latin'] });
+// يمكن تعريف اللغات هنا أو استيرادها من مكان مشترك
+const locales = ['en', 'ar'];
 
-// تحديد اللغات المدعومة
-const locales = ['ar', 'en'];
-
-// استيراد ملفات الترجمة
+// دالة لجلب الرسائل (يمكن وضعها هنا أو في i18n.ts إذا أردت)
+// تأكد من أن المسار صحيح بالنسبة لموقع هذا الملف
 async function getMessages(locale: string) {
   try {
     return (await import(`../../i18n/locales/${locale}.json`)).default;
@@ -23,46 +19,33 @@ export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default async function RootLayout({
-  children,
-  params: { locale },
-}: {
-  children: React.ReactNode;
+type Props = {
+  children: ReactNode;
   params: { locale: string };
-}) {
-  // التحقق من دعم اللغة
-  if (!locales.includes(locale)) notFound();
-  
-  // الحصول على ملفات الترجمة
+};
+
+export default async function LocaleLayout({ children, params: { locale } }: Props) {
+  // التحقق من أن اللغة مدعومة
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+
+  // جلب الرسائل للغة الحالية
   const messages = await getMessages(locale);
-  
-  // تحديد اتجاه الصفحة بناءً على اللغة
+
+  // تحديد اتجاه اللغة
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
-  
+
   return (
     <html lang={locale} dir={dir}>
-      <head>
-        {/* إضافة الخطوط والأيقونات */}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-      </head>
-      <body className={inter.className}>
+      <body>
+        {/* توفير الرسائل للمكونات الفرعية (مهم جداً!) */}
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          <main>{children}</main>
-          <Footer />
+          {/* يمكنك إضافة مكونات التخطيط المشتركة هنا مثل Header, Footer */} 
+          {children}
         </NextIntlClientProvider>
-        
-        {/* إضافة سكريبت AOS للتأثيرات الحركية */}
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            document.addEventListener('DOMContentLoaded', function() {
-              AOS.init();
-            });
-          `
-        }} />
       </body>
     </html>
   );
 }
+
